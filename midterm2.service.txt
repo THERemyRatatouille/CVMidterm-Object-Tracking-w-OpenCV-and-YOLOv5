@@ -1,0 +1,9 @@
+[Unit]
+Description =Midterm 2 Service
+
+[Service]
+Restart = always
+ExecStart = /usr/bin/python/example.py
+
+[Install]
+WantedBy = multi-user.target
